@@ -1,0 +1,53 @@
+body{
+    background-image:url("mathematics-background-different-numbers-pattern-2476280.jpg");
+    background-position:center;
+    background-size:cover;
+}
+.dove{
+    background-color:rgba(0, 195, 255, 0.781);
+    border-radius:20px;
+    width:250px;
+}
+h1{
+    color:rgb(255, 255, 255);
+    border-radius:20px;
+}
+h3{
+    color:white;
+}
+#dave{
+    background-color:rgba(95, 158, 160, 0.836);
+    margin-left:370px;
+    border-radius:20px;
+    height:170px;
+}
+#dan{
+    margin-top:50px;
+    background-color:rgba(95, 158, 160, 0.836);
+    margin-left:370px;
+    border-radius:20px;
+    height:170px;
+}
+#button_1{
+    margin-top:50px;
+    margin-right:500px;
+    margin-left:500px;
+}
+#output{
+    background:white;
+    border-radius:10px;
+    border-top:10px solid #AA4465;
+    padding:10px;
+    float:none;
+    text-align:left;
+    margin-left:100px;
+    margin-right:100px;
+}
+#number1{
+    border-top:10px solid #AA4465;
+    width:1080px;
+}
+#number2{
+    border-top:10px solid #AA4465;
+    width:1080px;
+}

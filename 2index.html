@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Activity 1</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="2main.js"></script>
+    </head>
+    <body>
+        <h4 id="scorep1"></h4><span id="scorea"></span>
+        <h4 id="scorep2"></h4><span id="scoreb"></span>
+        <center>
+           <div class="dove">
+               <h1>Maths Quiz!</h1>
+           </div>
+           <h3 id="question"></h3>
+           <h3 id="answer"></h3>
+           <div id="output">
+               <input id="enter answer" type="text" class="form-control" placeholder="Enter your answer">
+               <br>
+               <button class="btn btn-info" id="check" onclick="check()">Check</button>
+               </div>
+               <h4>
+                   Number 1
+               </h4>
+               <input id="number1" type="text" class="form-control" placeholder="Enter any Number">
+               <h4>
+                   Number 2
+               </h4>
+               <input id="number2" type="text" class="form-control" placeholder="Enter any Number">
+               <br>
+               <button id="send" type="button" onclick="send()" class="btn btn-info">Send</button>
+               <br>
+               <br>
+               <button id="back" type="button" onclick="replay()" class="btn btn-success">Start A New Game</button>
+        </center>
+        <script src="2main.js"></script>
+    </body>
+</html>
